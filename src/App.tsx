@@ -27,6 +27,7 @@ import Profile from "./pages/Profile/Profile";
 import Earnings from "./pages/Earnings/Earnings";
 import EditPassword from "./pages/EditPassword/EditPassword";
 import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
+import OTP from "./pages/OTP/OTP";
 // import Page from "./pages/Page";
 // import Menu from "./components/Menu";
 
@@ -133,6 +134,7 @@ const App: React.FC = () => (
       <Route path="/earnings" component={Earnings} exact={true} />
       <Route path="/editpassword" component={EditPassword} exact={true} />
       <Route path="/forgotpassword" component={ForgotPassword} exact={true} />
+      <Route path="/otp" component={OTP} exact={true} />
 
       {/* <IonSplitPane contentId="main">
         <Menu />
